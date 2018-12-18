@@ -1,0 +1,173 @@
+{
+  "@graph" : [ {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/AJ-Lamp",
+    "object" : [ "Power", "Color", "Brightness" ],
+    "subject" : "/Mobius/kwu-hub/AJ-Lamp",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Device"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/AJ-Lamp/Brightness",
+    "object" : "Brightness",
+    "subject" : "/Mobius/kwu-hub/AJ-Lamp/Brightness",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "70"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/AJ-Lamp/Color",
+    "object" : "Color",
+    "subject" : "/Mobius/kwu-hub/AJ-Lamp/Color",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "100"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/AJ-Lamp/Power",
+    "object" : "Power",
+    "subject" : "/Mobius/kwu-hub/AJ-Lamp/Power",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "on"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Foobot",
+    "object" : "Status",
+    "subject" : "/Mobius/kwu-hub/Foobot",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Device"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Foobot/Status",
+    "object" : "Status",
+    "subject" : "/Mobius/kwu-hub/Foobot/Status",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "11.060001ugm3/27.551C/27.849pc/1544ppm/426ppb/46.56%"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Hue-Lamp",
+    "object" : [ "Power", "Color", "Brightness" ],
+    "subject" : "/Mobius/kwu-hub/Hue-Lamp",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Device"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Hue-Lamp/Brightness",
+    "object" : "Brightness",
+    "subject" : "/Mobius/kwu-hub/Hue-Lamp/Brightness",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "20"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Hue-Lamp/Color",
+    "object" : "Color",
+    "subject" : "/Mobius/kwu-hub/Hue-Lamp/Color",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "20"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Hue-Lamp/Power",
+    "object" : "Power",
+    "subject" : "/Mobius/kwu-hub/Hue-Lamp/Power",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "on"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Lockitron",
+    "object" : "Power",
+    "subject" : "/Mobius/kwu-hub/Lockitron",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Device"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Lockitron/Power",
+    "object" : "Power",
+    "subject" : "/Mobius/kwu-hub/Lockitron/Power",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "lock"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Nest",
+    "object" : [ "target_temperature", "current_temperature", "target_temperature_type" ],
+    "subject" : "/Mobius/kwu-hub/Nest",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Device"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Nest/current_temperature",
+    "object" : "current_temperature",
+    "subject" : "/Mobius/kwu-hub/Nest/current_temperature",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "25.54999"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Nest/target_temperature",
+    "object" : "target_temperature",
+    "subject" : "/Mobius/kwu-hub/Nest/target_temperature",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "30"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/Nest/target_temperature_type",
+    "object" : "target_temperature_type",
+    "subject" : "/Mobius/kwu-hub/Nest/target_temperature_type",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "cool"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/SmartThings",
+    "object" : [ "DoorStatus", "Switch", "MotionDetect" ],
+    "subject" : "/Mobius/kwu-hub/SmartThings",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Device"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/SmartThings/DoorStatus",
+    "object" : "DoorStatus",
+    "subject" : "/Mobius/kwu-hub/SmartThings/DoorStatus",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "close"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/SmartThings/MotionDetect",
+    "object" : "MotionDetect",
+    "subject" : "/Mobius/kwu-hub/SmartThings/MotionDetect",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "inactive"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/SmartThings/Switch",
+    "object" : "Switch",
+    "subject" : "/Mobius/kwu-hub/SmartThings/Switch",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "off"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/WeMo-Switch",
+    "object" : "Power",
+    "subject" : "/Mobius/kwu-hub/WeMo-Switch",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Device"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/WeMo-Switch/Power",
+    "object" : "Power",
+    "subject" : "/Mobius/kwu-hub/WeMo-Switch/Power",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Service",
+    "value" : "off"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#/Mobius/kwu-hub/oneM2M-Lamp",
+    "subject" : "/Mobius/kwu-hub/oneM2M-Lamp",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Device"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#Hue-LampPowerequalsonAJ-LampPoweron",
+    "object" : "/Mobius/kwu-hub/AJ-Lamp/Power",
+    "subject" : "/Mobius/kwu-hub/Hue-Lamp/Power",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Command",
+    "value" : "equals on/on"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#Hue-LampPowerequalsonNesttarget_temperature30",
+    "object" : "/Mobius/kwu-hub/Nest/target_temperature",
+    "subject" : "/Mobius/kwu-hub/Hue-Lamp/Power",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Command",
+    "value" : "equals on/30"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#SmartThingsDoorStatusequalsinactiveHue-LampPoweroff",
+    "object" : "/Mobius/kwu-hub/Hue-Lamp/Power",
+    "subject" : "/Mobius/kwu-hub/SmartThings/DoorStatus",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Command",
+    "value" : "equals inactive/off"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#SmartThingsMotionDetectequalsactiveHue-LampPoweron",
+    "object" : "/Mobius/kwu-hub/Hue-Lamp/Power",
+    "subject" : "/Mobius/kwu-hub/SmartThings/MotionDetect",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Command",
+    "value" : "equals active/on"
+  }, {
+    "@id" : "http://cclab.kw.ac.kr#WeMo-SwitchPowerequalsonNesttarget_temperature27",
+    "object" : "/Mobius/kwu-hub/Nest/target_temperature",
+    "subject" : "/Mobius/kwu-hub/WeMo-Switch/Power",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "Command",
+    "value" : "equals on/27"
+  } ],
+  "@context" : {
+    "value" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+    },
+    "subject" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+    },
+    "object" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+    }
+  }
+}
